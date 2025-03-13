@@ -2,10 +2,10 @@
 
 let person = [] ;
 
-let i =1 ;
-while(i<=50){
+for(let i = 1 ; i<=50 ; i++)
+    {
+        person.push("person"+i)
+    }
+    console.log(person)
 
-    console.log(person+ i)
-    1++ ;
-
-}
+    
