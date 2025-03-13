@@ -73,8 +73,9 @@ console.log(employee);
 
 
 
-let removeEmployees = employee.splice(30,7);
-console.log(removeEmployees);
+// let removeEmployees = employee.splice(30,7);
+
+// console.log(removeEmployees);
 //  let filterEmployees = [];
 
 
@@ -90,7 +91,13 @@ console.log(removeEmployees);
 //     }
 //     console.log(i);
 
-let employees = employee.filter(employee=>!(employee.id >30 && employee.id < 38 )
-  
-)
+//using splice Method 
+employee.splice(30,7);
+console.log(employee,"test")
+
+
+//using Filter Method
+let employees = employee.filter(employee=>!(employee.id >30 && employee.id < 38 ))
 console.log(employees);
+
+
