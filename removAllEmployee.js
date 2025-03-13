@@ -44,7 +44,6 @@ console.log(employee);
 
 
 
-// let filterEmployees = [];
 
 
 
@@ -74,5 +73,24 @@ console.log(employee);
 
 
 
-let removeEmployees = employee.slice(30,37);
+let removeEmployees = employee.splice(30,7);
 console.log(removeEmployees);
+//  let filterEmployees = [];
+
+
+// for(let i = 0 ; i<=employee; i++)
+//     {
+//       console.log(i)
+      
+//     }
+
+//     let select = i===removeEmployees ;
+//     if(i===removeEmployees){
+//         filterEmployees[i]
+//     }
+//     console.log(i);
+
+let employees = employee.filter(employee=>!(employee.id >30 && employee.id < 38 )
+  
+)
+console.log(employees);
